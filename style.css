@@ -11,19 +11,45 @@ header {
     text-align: center;
 }
 
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
 .container {
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
 }
 
-#main-content {
+section {
     margin-top: 20px;
 }
 
-img {
+/* Style para sa bawat seksyon */
+section h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+section p {
+    font-size: 16px;
+}
+
+section img {
     max-width: 100%;
     height: auto;
     display: block;
-    margin: 20px auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
